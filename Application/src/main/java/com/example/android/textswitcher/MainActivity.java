@@ -54,9 +54,9 @@ public class MainActivity extends Activity {
          * provided by the framework.
          */
         Animation in = AnimationUtils.loadAnimation(this,
-                android.R.anim.fade_in);
+                android.R.anim.slide_in_left);
         Animation out = AnimationUtils.loadAnimation(this,
-                android.R.anim.fade_out);
+                android.R.anim.slide_out_right);
         mSwitcher.setInAnimation(in);
         mSwitcher.setOutAnimation(out);
         // END_INCLUDE(setup)
